@@ -16,6 +16,12 @@
 		21C255BB2B9244560002C248 /* OzinsheDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C255BA2B9244560002C248 /* OzinsheDemoTests.swift */; };
 		21C255C52B9244560002C248 /* OzinsheDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C255C42B9244560002C248 /* OzinsheDemoUITests.swift */; };
 		21C255C72B9244560002C248 /* OzinsheDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C255C62B9244560002C248 /* OzinsheDemoUITestsLaunchTests.swift */; };
+		21C256102B9368580002C248 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2560F2B9368580002C248 /* TabBarController.swift */; };
+		21C256182B938EE20002C248 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21C256122B9377BC0002C248 /* SF-Pro-Display-Regular.otf */; };
+		21C256192B938EE70002C248 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21C256132B9377C80002C248 /* SF-Pro-Display-Semibold.otf */; };
+		21C2561A2B938EEC0002C248 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21C256152B9377DB0002C248 /* SF-Pro-Display-Bold.otf */; };
+		21C2561D2B93A31D0002C248 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2561C2B93A31D0002C248 /* FavoriteTableViewController.swift */; };
+		21C2561F2B93A4580002C248 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2561E2B93A4580002C248 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		21C255C02B9244560002C248 /* OzinsheDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzinsheDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C255C42B9244560002C248 /* OzinsheDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzinsheDemoUITests.swift; sourceTree = "<group>"; };
 		21C255C62B9244560002C248 /* OzinsheDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzinsheDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21C2560F2B9368580002C248 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		21C256122B9377BC0002C248 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		21C256132B9377C80002C248 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		21C256152B9377DB0002C248 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		21C2561C2B93A31D0002C248 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		21C2561E2B93A4580002C248 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,10 @@
 		21C255A22B9244550002C248 /* OzinsheDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21C256112B9376A90002C248 /* Fonts */,
 				21C255A32B9244550002C248 /* AppDelegate.swift */,
 				21C255A52B9244550002C248 /* SceneDelegate.swift */,
-				21C255A72B9244550002C248 /* ViewController.swift */,
+				21C2561B2B93A2AA0002C248 /* Controllers */,
 				21C255A92B9244550002C248 /* Main.storyboard */,
 				21C255AC2B9244560002C248 /* Assets.xcassets */,
 				21C255AE2B9244560002C248 /* LaunchScreen.storyboard */,
@@ -125,6 +138,27 @@
 				21C255C62B9244560002C248 /* OzinsheDemoUITestsLaunchTests.swift */,
 			);
 			path = OzinsheDemoUITests;
+			sourceTree = "<group>";
+		};
+		21C256112B9376A90002C248 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21C256152B9377DB0002C248 /* SF-Pro-Display-Bold.otf */,
+				21C256132B9377C80002C248 /* SF-Pro-Display-Semibold.otf */,
+				21C256122B9377BC0002C248 /* SF-Pro-Display-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		21C2561B2B93A2AA0002C248 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				21C255A72B9244550002C248 /* ViewController.swift */,
+				21C2560F2B9368580002C248 /* TabBarController.swift */,
+				21C2561C2B93A31D0002C248 /* FavoriteTableViewController.swift */,
+				21C2561E2B93A4580002C248 /* MovieTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C256192B938EE70002C248 /* SF-Pro-Display-Semibold.otf in Resources */,
 				21C255B02B9244560002C248 /* LaunchScreen.storyboard in Resources */,
+				21C2561A2B938EEC0002C248 /* SF-Pro-Display-Bold.otf in Resources */,
 				21C255AD2B9244560002C248 /* Assets.xcassets in Resources */,
+				21C256182B938EE20002C248 /* SF-Pro-Display-Regular.otf in Resources */,
 				21C255AB2B9244550002C248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C2561D2B93A31D0002C248 /* FavoriteTableViewController.swift in Sources */,
 				21C255A82B9244550002C248 /* ViewController.swift in Sources */,
+				21C2561F2B93A4580002C248 /* MovieTableViewCell.swift in Sources */,
+				21C256102B9368580002C248 /* TabBarController.swift in Sources */,
 				21C255A42B9244550002C248 /* AppDelegate.swift in Sources */,
 				21C255A62B9244550002C248 /* SceneDelegate.swift in Sources */,
 			);
